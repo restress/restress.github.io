@@ -343,6 +343,22 @@
   
 
   
+  <div id="gitment-ctn"></div> 
+<link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css">
+<script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: "http://yoursite.com/2018/04/30/hello-world/",
+  owner: 'restress',
+  repo: 'https://github.com/restress/restress.github.io',
+  oauth: {
+    client_id: 'c9f90b0bcdc78bbbdb89',
+    client_secret: '4bfab1b1a959d875739e6b43d6081ddf763b5400',
+  },
+})
+gitment.render('gitment-ctn')
+</script>
+  
 
 
           </div>
